@@ -64,4 +64,3 @@ if __name__ == "__main__":
 #  Successfully ingested: 9k4tbcdfg0 (Title: 'None')
 #    load_count  play_count  play_rate  hours_watched  engagement  visitors                 updated_at
 # 0      115938         922   0.010566      37.022135    0.146208     85270 2026-09-16 16:26:13.528776
-# 1         932         328   0.423680      51.176190    0.255894       701 2026-09-16 16:26:13.528776
