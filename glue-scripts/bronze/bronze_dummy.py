@@ -2,5 +2,4 @@ import os
 def ingest_specific_medias(media_ids):
     pass
 
-def ingest_specific_medias(media_ids):
-    pass
+
