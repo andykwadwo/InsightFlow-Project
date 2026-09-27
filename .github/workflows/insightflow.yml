@@ -39,13 +39,13 @@ jobs:
       # Step 3: Deploy local scripts to their respective S3 architecture paths
       - name: Sync Bronze Scripts to S3
         run: |
-          aws s3 sync ./glue-scripts/bronze/ s3://${{ secrets.GLUE_S3_BUCKET }}/bronze/scripts/ --exact-timestamps
+          aws s3 sync ./glue-scripts/bronze/ s3://${{ secrets.GLUE_S3_BUCKET }}/scripts/ --exact-timestamps
 
       - name: Sync Silver Scripts to S3
         run: |
-          aws s3 sync ./glue-scripts/silver/ s3://${{ secrets.GLUE_S3_BUCKET }}/silver/scripts/ --exact-timestamps
+          aws s3 sync ./glue-scripts/silver/ s3://${{ secrets.GLUE_S3_BUCKET }}/scripts/ --exact-timestamps
 
       - name: Sync Gold Scripts to S3
         run: |
-          aws s3 sync ./glue-scripts/gold/ s3://${{ secrets.GLUE_S3_BUCKET }}/gold/scripts/ --exact-timestamps
+          aws s3 sync ./glue-scripts/gold/ s3://${{ secrets.GLUE_S3_BUCKET }}/scripts/ --exact-timestamps
 
