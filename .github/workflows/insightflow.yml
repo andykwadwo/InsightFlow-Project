@@ -35,9 +35,6 @@ jobs:
           role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
           aws-region: ${{ secrets.AWS_REGION }}
           audience: sts.amazonaws.com
-          
-      - name: Test AWS credentials
-        run: aws sts-get-caller-identity
 
       # Step 3: Deploy local scripts to their respective S3 architecture paths
       - name: Sync Bronze Scripts to S3
