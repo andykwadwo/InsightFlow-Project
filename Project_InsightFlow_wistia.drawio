@@ -1,0 +1,46 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="dygyhijBu4G21X62nmcn">
+    <mxGraphModel dx="1934" dy="659" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="diET54AJ06V1EChwJLbT-3" edge="1" parent="1" source="UFqi9BmKlGvFxyE77uyj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rrgI9rJkIa8ulxn7bBlx-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UFqi9BmKlGvFxyE77uyj-3" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.bucket;fillColor=#E05243;gradientColor=none;" value="S3" vertex="1">
+          <mxGeometry height="61.5" width="60" x="230" y="267.75" as="geometry" />
+        </mxCell>
+        <mxCell id="UFqi9BmKlGvFxyE77uyj-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Streamlit" vertex="1">
+          <mxGeometry height="60" width="120" x="210" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="diET54AJ06V1EChwJLbT-1" edge="1" parent="1" source="UFqi9BmKlGvFxyE77uyj-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="rrgI9rJkIa8ulxn7bBlx-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UFqi9BmKlGvFxyE77uyj-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="Wistia" vertex="1">
+          <mxGeometry height="60" width="120" x="-240" y="268.5" as="geometry" />
+        </mxCell>
+        <mxCell id="UFqi9BmKlGvFxyE77uyj-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=#B20000;fillColor=#e51400;align=center;verticalAlign=middle;rounded=0;fontColor=#ffffff;" value="Api Gateway: will be used for accepting and processing APIs&lt;div&gt;Lambda:will used extracting the necessary data from API load&lt;/div&gt;&lt;div&gt;S3:will used to store both processed and unprocessed api loads&lt;/div&gt;&lt;div&gt;Streamlit:will be used to visualize our gold layer data&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="450" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="diET54AJ06V1EChwJLbT-2" edge="1" parent="1" source="rrgI9rJkIa8ulxn7bBlx-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="UFqi9BmKlGvFxyE77uyj-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rrgI9rJkIa8ulxn7bBlx-1" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.glue;fillColor=#F58534;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="99" width="82.5" x="-10" y="249" as="geometry" />
+        </mxCell>
+        <mxCell id="rrgI9rJkIa8ulxn7bBlx-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="glue" vertex="1">
+          <mxGeometry height="30" width="60" x="1.25" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="rrgI9rJkIa8ulxn7bBlx-3" parent="1" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.glue;fillColor=#F58534;gradientColor=none;" value="" vertex="1">
+          <mxGeometry height="99" width="82.5" x="480" y="241" as="geometry" />
+        </mxCell>
+        <mxCell id="rrgI9rJkIa8ulxn7bBlx-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="glue" vertex="1">
+          <mxGeometry height="30" width="60" x="490" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="diET54AJ06V1EChwJLbT-4" edge="1" parent="1" source="UFqi9BmKlGvFxyE77uyj-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.421;entryY=1.075;entryDx=0;entryDy=0;entryPerimeter=0;" target="UFqi9BmKlGvFxyE77uyj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
