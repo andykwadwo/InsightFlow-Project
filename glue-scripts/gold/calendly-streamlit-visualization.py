@@ -23,8 +23,8 @@ fig = px.bar(df_trend, x='date', y='booking_count_per_channel_per_date', color='
 fig2 = px.pie(df_trend, names='channel', values='booking_count_per_channel_per_date', title='Booking Distribution by Channel')
 
 
-fig2.show()
-# fig.show()
+st.plotly_chart(fig)
+st.plotly_chart(fig2)
 
 
 
